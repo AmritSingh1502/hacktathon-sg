@@ -7,6 +7,10 @@ import path from 'path';
 const app = express();
 app.use(express.json());
 
+
+//email
+// summary
+// 
 interface EmailData {
   sender?: string;
   subject?: string;
